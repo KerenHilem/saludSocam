@@ -1,0 +1,47 @@
+  h1{
+      font-family: acta-display, Georgia, Times, serif;
+      font-size: 3em;
+      color: #333;
+      font-weight: normal;
+      margin-top: 1em;
+      text-align: center;
+    }
+
+    p{
+      line-height: 1.635em;
+      margin: .7em 0 1em 0;
+      font-family: Georgia, Cambria, 'Times New Roman', Times, serif;
+      font-size: 1.3em;
+      color: #333;
+    }
+
+    #contenedor{
+      margin: 0 auto;
+      width: 800px;
+    }
+
+    #btnArriba,
+    #btnAbajo{
+      background-color:white;
+      position:fixed; /*evita que se muevan*/
+      width:54px;
+      height:54px;
+      bottom:10px;
+      opacity:0.5; /*hace que las imágenes sean un poco transparentes*/
+      white-space:nowrap;
+      cursor: pointer;
+    }
+
+    #btnArriba:hover,
+    #btnAbajo:hover{
+      opacity:0.8;
+    }
+
+    #btnArriba{
+      background:transparent url(imagenes/arriba.png) no-repeat top left;
+      left:30px;
+    }
+    #btnAbajo{
+      background:transparent url(imagenes/abajo.png) no-repeat top left;
+      left:90px;
+    }
