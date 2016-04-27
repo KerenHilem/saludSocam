@@ -28,7 +28,9 @@
     <script src="../plantilla/js/autoCompletar.js"></script>
     <script src="../plantilla/js/disableInputs.js"></script>
     <script src="../plantilla/js/botonesDeslizantes.js"></script>
-        <script src="../plantilla/js/autoCompletarDatosPaciente.js"></script>
+    <script src="../plantilla/js/autoCompletarDatosPaciente.js"></script>
+    <script src="../plantilla/js/jquery-barcode.js"></script>
+    <script src="../plantilla/js/barcode.js"></script>
     <!-- fin de codigos de jquery -->
 
     <!--  inicio de códigos javascript -->
@@ -40,6 +42,7 @@
     <link href="../plantilla/css/botonesDeslizantes.css" rel="stylesheet">
     <link href="../plantilla/css/rotateHeader.css" rel="stylesheet">
     <link href="../plantilla/css/bootstrap-checkbox.css" rel="stylesheet">
+    <link href="../plantilla/css/barcode.css" rel="stylesheet" type="text/css">
     <!-- Fin de hojas de estilos alternas a bootstrap -->
 
     <!-- Bootstrap core CSS -->

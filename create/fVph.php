@@ -11,17 +11,29 @@
 
     <div class="form-group col-md-2">
       <br>
-      <button type='button' class='btn btn-primary' name='generar'>Generar código</button>
+    <!--   <div id="submit"> -->
+    <!-- <input type="button" onclick="generateBarcode();" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Generar codigo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"> -->
+  <!-- </div>
+ -->
+      <button type='button' class='btn btn-primary' name='generar' id="submit" onclick="generateBarcode();">Generar código</button>
     </div>
 
     <div class="form-group col-md-5">
       <label for="codigo">Código de barras:</label>
-      <input type="text" name="codigo" class="form-control"></input>
+      <!-- <input type="text" id="barcodeValue" value="021627001"> -->
+      <input type="text" name="codigo" id="barcodeValue" class="form-control" value="021627001"></input>
     </div>
-    <div class="form-group col-md-5">
+
+    <div class="form-group col-md-2">
+      <label for="espacio"> </label>
+    </div>
+
+    <div id="barcodeTarget" class="col-md-5 barcodeTarget img-thumbnail"></div>
+
+    <!-- <div class="form-group col-md-5">
       <label for="codigo_barras"><br></label>
-      <input type="text" name="codigo_barras" class="form-control"></input>
-    </div>
+      <input type="text" name="codigo_barras" id="barcodeTarget" class="form-control barcodeTarget"></input>
+    </div> -->
 
     <!-- Tipo de prueba -->
     <div class="form-group col-md-6">
